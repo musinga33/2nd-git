@@ -35,6 +35,11 @@ PS C:\Users\Musinga\2nd git> git commit -m"this is my second git exercise"
  create mode 100644 Read me
  create mode 100644 registration form.html
 PS C:\Users\Musinga\2nd git>
+
+
+
+
+
         add
 PS C:\Users\Musinga\2nd git> git add .
 PS C:\Users\Musinga\2nd git> git commit -m"this is my second git exercise"
@@ -70,6 +75,50 @@ PS C:\Users\Musinga\2nd git> git commit -m"this is my second git exercise"
  create mode 100644 Read me
  create mode 100644 registration form.html
 PS C:\Users\Musinga\2nd git>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ create mode 100644 Read me
+ create mode 100644 registration form.html
+PS C:\Users\Musinga\2nd git>
+
+
+
+
+
+
+
+
+
+ create mode 100644 Read me
+ create mode 100644 registration form.html
+PS C:\Users\Musinga\2nd git>
+
+
+
+
+
+ create mode 100644 Read me
+ create mode 100644 registration form.html
+PS C:\Users\Musinga\2nd git>
+
+
+
+ create mode 100644 Read me
+ create mode 100644 registration form.html
+PS C:\Users\Musinga\2nd git>
+
  create mode 100644 Read me
  create mode 100644 registration form.html
 PS C:\Users\Musinga\2nd git>
@@ -78,21 +127,12 @@ PS C:\Users\Musinga\2nd git>
 PS C:\Users\Musinga\2nd git>
  create mode 100644 Read me
  create mode 100644 registration form.html
-PS C:\Users\Musinga\2nd git>
  create mode 100644 Read me
  create mode 100644 registration form.html
 PS C:\Users\Musinga\2nd git>
- create mode 100644 Read me
- create mode 100644 registration form.html
-PS C:\Users\Musinga\2nd git>
- create mode 100644 Read me
- create mode 100644 registration form.html
-PS C:\Users\Musinga\2nd git>
- create mode 100644 Read me
- create mode 100644 registration form.html
- create mode 100644 Read me
- create mode 100644 registration form.html
-PS C:\Users\Musinga\2nd git>
+
+
+
 PS C:\Users\Musinga\2nd git> git init
 Reinitialized existing Git repository in C:/Users/Musinga/2nd git/.git/
 PS C:\Users\Musinga\2nd git> git commit -m "this is my second git exercise"
@@ -119,5 +159,293 @@ PS C:\Users\Musinga\2nd git> git branch
 PS C:\Users\Musinga\2nd git> git add "registration form.html"
 PS C:\Users\Musinga\2nd git> git remote add origin https://github.com/musinga33/2nd-git.git
 error: remote origin already exists.
-PS C:\Users\Musinga\2nd git> 
+PS C:\Users\Musinga\2nd git>
 
+
+
+
+
+
+PS C:\Users\Musinga\2nd git> git branch
+* dev
+  main
+PS C:\Users\Musinga\2nd git> git checkout "main"
+M       Read me
+Switched to branch 'main'
+PS C:\Users\Musinga\2nd git> git add .
+PS C:\Users\Musinga\2nd git> git commit -"Updated my files for 2nd git exercise "
+error: unknown switch `U'
+usage: git commit [-a | --interactive | --patch] [-s] [-v] [-u[<mode>]] [--amend]
+                  [--dry-run] [(-c | -C | --squash) <commit> | --fixup [(amend|reword):]<commit>]
+                  [-F <file> | -m <msg>] [--reset-author] [--allow-empty]
+                  [--allow-empty-message] [--no-verify] [-e] [--author=<author>]
+                  [--date=<date>] [--cleanup=<mode>] [--[no-]status]
+                  [-i | -o] [--pathspec-from-file=<file> [--pathspec-file-nul]]
+                  [(--trailer <token>[(=|:)<value>])...] [-S[<keyid>]]
+                  [--] [<pathspec>...]
+
+    -q, --[no-]quiet      suppress summary after successful commit
+    -v, --[no-]verbose    show diff in commit message template
+
+Commit message options
+    -F, --[no-]file <file>
+                          read message from file
+    --[no-]author <author>
+                          override author for commit
+    --[no-]date <date>    override date for commit
+    -m, --[no-]message <message>
+                          commit message
+    -c, --[no-]reedit-message <commit>
+                          reuse and edit message from specified commit
+    -C, --[no-]reuse-message <commit>
+                          reuse message from specified commit
+    --[no-]fixup [(amend|reword):]commit
+                          use autosquash formatted message to fixup or amend/reword specified commit
+    --[no-]squash <commit>
+                          use autosquash formatted message to squash specified commit
+    --[no-]reset-author   the commit is authored by me now (used with -C/-c/--amend)
+    --trailer <trailer>   add custom trailer(s)
+    -t, --[no-]template <file>
+                          use specified template file
+    --[no-]cleanup <mode> how to strip spaces and #comments from message
+    --[no-]status         include status in commit message template
+    -S, --[no-]gpg-sign[=<key-id>]
+                          GPG sign commit
+
+Commit contents options
+    -a, --[no-]all        commit all changed files
+    -i, --[no-]include    add specified files to index for commit
+    --[no-]interactive    interactively add files
+    -p, --[no-]patch      interactively add changes
+    -o, --[no-]only       commit only specified files
+    -n, --no-verify       bypass pre-commit and commit-msg hooks
+    --verify              opposite of --no-verify
+    --[no-]dry-run        show what would be committed
+    --[no-]short          show status concisely
+    --[no-]branch         show branch information
+    --[no-]ahead-behind   compute full ahead/behind values
+    --[no-]porcelain      machine-readable output
+    --[no-]long           show status in long format (default)
+    -z, --[no-]null       terminate entries with NUL
+    --[no-]amend          amend previous commit
+    --no-post-rewrite     bypass post-rewrite hook
+    --post-rewrite        opposite of --no-post-rewrite
+    -u, --[no-]untracked-files[=<mode>]
+                          show untracked files, optional modes: all, normal, no. (Default: all)
+    --[no-]pathspec-from-file <file>
+    --[no-]dry-run        show what would be committed
+    --[no-]short          show status concisely
+    --[no-]branch         show branch information
+    --[no-]ahead-behind   compute full ahead/behind values
+    --[no-]porcelain      machine-readable output
+    --[no-]long           show status in long format (default)
+    -z, --[no-]null       terminate entries with NUL
+    --[no-]amend          amend previous commit
+    --no-post-rewrite     bypass post-rewrite hook
+    --post-rewrite        opposite of --no-post-rewrite
+    -u, --[no-]untracked-files[=<mode>]
+                          show untracked files, optional modes: all, normal, no. (Default: all)
+    --[no-]pathspec-from-file <file>
+    --[no-]branch         show branch information
+    --[no-]ahead-behind   compute full ahead/behind values
+    --[no-]porcelain      machine-readable output
+    --[no-]long           show status in long format (default)
+    -z, --[no-]null       terminate entries with NUL
+    --[no-]amend          amend previous commit
+    --no-post-rewrite     bypass post-rewrite hook
+    --post-rewrite        opposite of --no-post-rewrite
+    -u, --[no-]untracked-files[=<mode>]
+                          show untracked files, optional modes: all, normal, no. (Default: all)
+    --[no-]pathspec-from-file <file>
+    --[no-]ahead-behind   compute full ahead/behind values
+    --[no-]porcelain      machine-readable output
+    --[no-]long           show status in long format (default)
+    -z, --[no-]null       terminate entries with NUL
+    --[no-]amend          amend previous commit
+    --no-post-rewrite     bypass post-rewrite hook
+    --post-rewrite        opposite of --no-post-rewrite
+    -u, --[no-]untracked-files[=<mode>]
+                          show untracked files, optional modes: all, normal, no. (Default: all)
+    --[no-]pathspec-from-file <file>
+    --[no-]porcelain      machine-readable output
+    --[no-]long           show status in long format (default)
+    -z, --[no-]null       terminate entries with NUL
+    --[no-]amend          amend previous commit
+    --no-post-rewrite     bypass post-rewrite hook
+    --post-rewrite        opposite of --no-post-rewrite
+    -u, --[no-]untracked-files[=<mode>]
+                          show untracked files, optional modes: all, normal, no. (Default: all)
+    --[no-]pathspec-from-file <file>
+    -z, --[no-]null       terminate entries with NUL
+    --[no-]amend          amend previous commit
+    --no-post-rewrite     bypass post-rewrite hook
+    --post-rewrite        opposite of --no-post-rewrite
+    -u, --[no-]untracked-files[=<mode>]
+                          show untracked files, optional modes: all, normal, no. (Default: all)
+    --[no-]pathspec-from-file <file>
+    --post-rewrite        opposite of --no-post-rewrite
+    -u, --[no-]untracked-files[=<mode>]
+                          show untracked files, optional modes: all, normal, no. (Default: all)
+    --[no-]pathspec-from-file <file>
+                          show untracked files, optional modes: all, normal, no. (Default: all)
+    --[no-]pathspec-from-file <file>
+                          read pathspec from file
+                          read pathspec from file
+    --[no-]pathspec-file-nul
+                          with --pathspec-from-file, pathspec elements are separated with NUL character
+
+PS C:\Users\Musinga\2nd git> git commit -m"Updated my files for 2nd git exercise "
+[main 2074a3c] Updated my files for 2nd git exercise
+ 1 file changed, 123 insertions(+)
+PS C:\Users\Musinga\2nd git> git push -u origin main
+Enumerating objects: 9, done.
+                          with --pathspec-from-file, pathspec elements are separated with NUL character
+
+PS C:\Users\Musinga\2nd git> git commit -m"Updated my files for 2nd git exercise "
+[main 2074a3c] Updated my files for 2nd git exercise
+ 1 file changed, 123 insertions(+)
+PS C:\Users\Musinga\2nd git> git push -u origin main
+Enumerating objects: 9, done.
+
+PS C:\Users\Musinga\2nd git> git commit -m"Updated my files for 2nd git exercise "
+[main 2074a3c] Updated my files for 2nd git exercise
+ 1 file changed, 123 insertions(+)
+PS C:\Users\Musinga\2nd git> git push -u origin main
+Enumerating objects: 9, done.
+PS C:\Users\Musinga\2nd git> git commit -m"Updated my files for 2nd git exercise "
+[main 2074a3c] Updated my files for 2nd git exercise
+ 1 file changed, 123 insertions(+)
+PS C:\Users\Musinga\2nd git> git push -u origin main
+Enumerating objects: 9, done.
+[main 2074a3c] Updated my files for 2nd git exercise
+ 1 file changed, 123 insertions(+)
+PS C:\Users\Musinga\2nd git> git push -u origin main
+Enumerating objects: 9, done.
+PS C:\Users\Musinga\2nd git> git push -u origin main
+Enumerating objects: 9, done.
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (8/8), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (8/8), done.
+Writing objects: 100% (9/9), 1.79 KiB | 15.00 KiB/s, done.
+Total 9 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/musinga33/2nd-git.git
+ * [new branch]      main -> main
+Total 9 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/musinga33/2nd-git.git
+ * [new branch]      main -> main
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+branch 'main' set up to track 'origin/main'.
+PS C:\Users\Musinga\2nd git>
+
+
+
+
+
+branch 'main' set up to track 'origin/main'.
+PS C:\Users\Musinga\2nd git>
+
+
+
+
+branch 'main' set up to track 'origin/main'.
+PS C:\Users\Musinga\2nd git>
+
+
+
+branch 'main' set up to track 'origin/main'.
+PS C:\Users\Musinga\2nd git>
+
+
+branch 'main' set up to track 'origin/main'.
+PS C:\Users\Musinga\2nd git>
+
+branch 'main' set up to track 'origin/main'.
+PS C:\Users\Musinga\2nd git>
+
+branch 'main' set up to track 'origin/main'.
+PS C:\Users\Musinga\2nd git>
+
+
+branch 'main' set up to track 'origin/main'.
+PS C:\Users\Musinga\2nd git>
+
+
+
+branch 'main' set up to track 'origin/main'.
+PS C:\Users\Musinga\2nd git>
+
+
+branch 'main' set up to track 'origin/main'.
+PS C:\Users\Musinga\2nd git>
+
+
+
+
+
+
+branch 'main' set up to track 'origin/main'.
+PS C:\Users\Musinga\2nd git>
+
+
+
+
+branch 'main' set up to track 'origin/main'.
+PS C:\Users\Musinga\2nd git>
+
+
+
+
+
+
+branch 'main' set up to track 'origin/main'.
+PS C:\Users\Musinga\2nd git>
+
+
+branch 'main' set up to track 'origin/main'.
+branch 'main' set up to track 'origin/main'.
+PS C:\Users\Musinga\2nd git> git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   registration form.html
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Login copy.css
+        Login.css
+        Login.html
+        Registration.css
+no changes added to commit (use "git add" and/or "git commit -a")
+PS C:\Users\Musinga\2nd git> git add .
+PS C:\Users\Musinga\2nd git> git commit -m "all files modifyed"
+[main 7ec4ac7] all files modifyed
+ 5 files changed, 55 insertions(+)
+ create mode 100644 Login.css
+ create mode 100644 Login.html
+ create mode 100644 Registration.css
+PS C:\Users\Musinga\2nd git> git push
+Enumerating objects: 8, done.
+Counting objects: 100% (8/8), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (6/6), 926 bytes | 308.00 KiB/s, done.
+Total 6 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), completed with 1 local object.
+To https://github.com/musinga33/2nd-git.git
+   2074a3c..7ec4ac7  main -> main
+PS C:\Users\Musinga\2nd git> git push -u "main"
+fatal: 'main' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+PS C:\Users\Musinga\2nd git> git push -u origin main
+branch 'main' set up to track 'origin/main'.
+Everything up-to-date
+PS C:\Users\Musinga\2nd git> 
