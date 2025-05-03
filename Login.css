@@ -1,0 +1,10 @@
+body{
+    background-color: rgb(186, 251, 229);
+}
+fieldset{
+    border-radius: 4%;
+    width: 30%;
+    background-color: cornsilk;
+    padding-top: 500;
+
+}
