@@ -1,0 +1,123 @@
+PS C:\Users\Musinga\2nd git> git init
+Initialized empty Git repository in C:/Users/Musinga/2nd git/.git/
+PS C:\Users\Musinga\2nd git> git branch
+fatal: branch name required
+git: 'chechout' is not a git command. See 'git --help'.
+PS C:\Users\Musinga\2nd git> git checkout -b
+PS C:\Users\Musinga\2nd git> git add orgin remotegit remote add origin https://github.com/musinga33/2nd-git.git
+PS C:\Users\Musinga\2nd git> git remote add origin https://github.com/musinga33/2nd-git.git
+PS C:\Users\Musinga\2nd git> git checkout -b
+error: switch `b' requires a value
+PS C:\Users\Musinga\2nd git> git checkout   
+fatal: You are on a branch yet to be born
+PS C:\Users\Musinga\2nd git> git add.
+git: 'add.' is not a git command. See 'git --help'.
+
+The most similar command is
+        add
+PS C:\Users\Musinga\2nd git> git add .
+PS C:\Users\Musinga\2nd git> git commit -m"this is my second git exercise"
+[main (root-commit) 9a51cce] this is my second git exercise
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 Read me
+ create mode 100644 registration form.html
+        add
+PS C:\Users\Musinga\2nd git> git add .
+PS C:\Users\Musinga\2nd git> git commit -m"this is my second git exercise"
+[main (root-commit) 9a51cce] this is my second git exercise
+        add
+        add
+        add
+PS C:\Users\Musinga\2nd git> git add .
+PS C:\Users\Musinga\2nd git> git commit -m"this is my second git exercise"
+[main (root-commit) 9a51cce] this is my second git exercise
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 Read me
+ create mode 100644 registration form.html
+PS C:\Users\Musinga\2nd git>
+        add
+PS C:\Users\Musinga\2nd git> git add .
+PS C:\Users\Musinga\2nd git> git commit -m"this is my second git exercise"
+[main (root-commit) 9a51cce] this is my second git exercise
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 Read me
+ create mode 100644 registration form.html
+PS C:\Users\Musinga\2nd git>
+
+        add
+PS C:\Users\Musinga\2nd git> git add .
+PS C:\Users\Musinga\2nd git> git commit -m"this is my second git exercise"
+[main (root-commit) 9a51cce] this is my second git exercise
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 Read me
+        add
+PS C:\Users\Musinga\2nd git> git add .
+PS C:\Users\Musinga\2nd git> git commit -m"this is my second git exercise"
+[main (root-commit) 9a51cce] this is my second git exercise
+        add
+PS C:\Users\Musinga\2nd git> git add .
+PS C:\Users\Musinga\2nd git> git commit -m"this is my second git exercise"
+PS C:\Users\Musinga\2nd git> git add .
+PS C:\Users\Musinga\2nd git> git commit -m"this is my second git exercise"
+[main (root-commit) 9a51cce] this is my second git exercise
+PS C:\Users\Musinga\2nd git> git commit -m"this is my second git exercise"
+[main (root-commit) 9a51cce] this is my second git exercise
+[main (root-commit) 9a51cce] this is my second git exercise
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 Read me
+ create mode 100644 registration form.html
+PS C:\Users\Musinga\2nd git>
+ create mode 100644 Read me
+ create mode 100644 registration form.html
+PS C:\Users\Musinga\2nd git>
+ create mode 100644 Read me
+ create mode 100644 registration form.html
+PS C:\Users\Musinga\2nd git>
+ create mode 100644 Read me
+ create mode 100644 registration form.html
+PS C:\Users\Musinga\2nd git>
+ create mode 100644 Read me
+ create mode 100644 registration form.html
+PS C:\Users\Musinga\2nd git>
+ create mode 100644 Read me
+ create mode 100644 registration form.html
+PS C:\Users\Musinga\2nd git>
+ create mode 100644 Read me
+ create mode 100644 registration form.html
+PS C:\Users\Musinga\2nd git>
+ create mode 100644 Read me
+ create mode 100644 registration form.html
+ create mode 100644 Read me
+ create mode 100644 registration form.html
+PS C:\Users\Musinga\2nd git>
+PS C:\Users\Musinga\2nd git> git init
+Reinitialized existing Git repository in C:/Users/Musinga/2nd git/.git/
+PS C:\Users\Musinga\2nd git> git commit -m "this is my second git exercise"
+[main 8ae4e65] this is my second git exercise
+ 1 file changed, 32 insertions(+)
+PS C:\Users\Musinga\2nd git> git add "registration form.html"
+PS C:\Users\Musinga\2nd git> git branch -m
+fatal: branch name required
+PS C:\Users\Musinga\2nd git> git branch   
+* main
+PS C:\Users\Musinga\2nd git> git remote add origin https://github.com/musinga33/2nd-git.git
+error: remote origin already exists.
+PS C:\Users\Musinga\2nd git> git push -u orgin main
+fatal: 'orgin' does not appear to be a git repository
+fatal: Could not read from remote repository.      
+
+Please make sure you have the correct access rights
+and the repository exists.
+PS C:\Users\Musinga\2nd git> git checkout -b "dev"
+Switched to a new branch 'dev'
+PS C:\Users\Musinga\2nd git> git branch
+* dev
+  main
+PS C:\Users\Musinga\2nd git> git add "registration form.html"
+PS C:\Users\Musinga\2nd git> git remote add origin https://github.com/musinga33/2nd-git.git
+error: remote origin already exists.
+PS C:\Users\Musinga\2nd git> 
+
